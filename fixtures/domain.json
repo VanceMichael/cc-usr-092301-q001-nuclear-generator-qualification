@@ -1,0 +1,31 @@
+{
+  "domain": "nuclear-generator-qualification",
+  "version": 1,
+  "sample_id": "092301-001",
+  "record_types": [
+    "机型配置",
+    "厂址需求",
+    "试验方案",
+    "测点批次",
+    "故障维修",
+    "鉴定签署"
+  ],
+  "workflow_states": [
+    "待立项",
+    "试验中",
+    "待复测",
+    "待签署",
+    "已生效",
+    "已撤回"
+  ],
+  "facts": [
+    "6MW级核电应急柴油发电机组由中国自主研发",
+    "机组启动时间小于10秒",
+    "6MW与既有8MW机组形成互补产品谱系"
+  ],
+  "sample": {
+    "unit_model": "EDG-6M-SAMPLE",
+    "site_profile": "沿海厂址样例",
+    "startup_limit_seconds": 10
+  }
+}
